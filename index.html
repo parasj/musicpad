@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>MusicPad</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+
+        <div data-role="header" data-theme="f">
+        <h1>Touch and Learn</h1>
+    </div><!-- /header -->
+    <div data-role="content">
+        <ul data-role="listview">
+            <li><a onclick="AppMobi.player.playSound('samples/pig.mp3');AppMobi.player.play();">
+                <img src="images/pig.jpg" />
+                <h1>Pig</h1>
+            </a></li>
+            <li><a onclick="AppMobi.player.playSound('samples/cow.mp3');AppMobi.player.play();">
+                <img src="images/cow.jpg" />
+                <h1>Cow</h1>
+            </a></li>
+        </ul> 
+    </div><!-- /content -->
+
+    <div data-role="footer" class="footer-docs" data-theme="c">
+            <p>&copy; 2011 JainBros</p>
+    </div>
+    </div><!-- /page -->
+</body>
+</html>
