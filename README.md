@@ -1,6 +1,6 @@
-What is Radioactive?
+What is Music Pad?
 ======================
-Radioactive is an Mobile HTML5 application in PHP for adaptive learning.
+Music Pad is an HTML5 jQuery Mobile Application as a simple drum machine.
 
 Why  HTML5/CSS3
 ===============
